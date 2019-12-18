@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#EF525B">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -77,7 +77,7 @@
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
@@ -465,7 +465,7 @@
     
     <h1>Biography</h1>
 
-    <p><strong>Arkadiusz Kwasigroch</strong> is a assistant researcher in the field of deep learning at the Gdańsk University of Technology. His research interests include deep learning, especialy neural architecture search and skin lesion classification.</p>
+    <p><strong>Arkadiusz Kwasigroch</strong> is an assistant researcher in the field of deep learning at the Gdańsk University of Technology. His research interests include deep learning, especialy neural architecture search and skin lesion classification.</p>
 
 
     <div class="row">
@@ -476,6 +476,8 @@
         <ul class="ul-interests">
           
           <li>Deep learning</li>
+          
+          <li>Python</li>
           
           <li>Pytorch</li>
           
@@ -564,11 +566,36 @@
 <div class="row contact-widget">
   <div class="col-12 col-lg-4 section-heading">
     <h1>Contact</h1>
-    
+    <p>Feel free to contact me</p>
   </div>
   <div class="col-12 col-lg-8">
     
 
+    
+
+    
+    
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/a.kwasigroch@gmail.com">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
     
 
     <ul class="fa-ul">
@@ -582,7 +609,7 @@
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">Gabriela Narutowicza 11/12, Gdańsk, 80-223</span>
+          <span id="person-address">Gdańsk, Poland</span>
         </li>
       
 
@@ -618,8 +645,8 @@
       <input id="map-provider" value="2">
       <input id="map-lat" value="54.371812">
       <input id="map-lng" value="18.617732">
-      <input id="map-dir" value="Gabriela Narutowicza 11/12, Gdańsk, 80-223">
-      <input id="map-zoom" value="15">
+      <input id="map-dir" value="Gdańsk, Poland">
+      <input id="map-zoom" value="5">
       <input id="map-api-key" value="">
     </div>
     <div id="map"></div>
