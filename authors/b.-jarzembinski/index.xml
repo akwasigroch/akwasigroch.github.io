@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B. Jarzembinski | A. Kwasigroch</title>
+    <link>https://akwasigroch.github.io/authors/b.-jarzembinski/</link>
+      <atom:link href="https://akwasigroch.github.io/authors/b.-jarzembinski/index.xml" rel="self" type="application/rss+xml" />
+    <description>B. Jarzembinski</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://akwasigroch.github.io/img/icon-192.png</url>
+      <title>B. Jarzembinski</title>
+      <link>https://akwasigroch.github.io/authors/b.-jarzembinski/</link>
+    </image>
+    
+    <item>
+      <title>Deep CNN based decision support system for detection and assessing the stage of diabetic retinopathy</title>
+      <link>https://akwasigroch.github.io/publication/iiphdw/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/publication/iiphdw/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

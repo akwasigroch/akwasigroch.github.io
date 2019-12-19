@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="In recent years, deep learning and especially deep neural networks (DNN) have obtained amazing performance on a variety of problems, in particular in classification or pattern recognition. Among many kinds of DNNs, the convolutional neural networks (CNN) are most commonly used. However, due to their complexity, there are many problems related but not limited to optimizing network parameters, avoiding overfitting and ensuring good generalization abilities. Therefore, a number of methods have been proposed by the researchers to deal with these problems. In this paper, we present the results of applying different, recently developed methods to improve deep neural network training and operating. We decided to focus on the most popular CNN structures, namely on VGG based neural networks: VGG16, VGG11 and proposed by us VGG8. The tests were conducted on a real and very important problem of skin cancer detection. A publicly available dataset of skin lesions was used as a benchmark. We analyzed the influence of applying: dropout, batch normalization, model ensembling, and transfer learning. Moreover, the influence of the type of activation function was checked. In order to increase the objectivity of the results, each of the tested models was trained 6 times and their results were averaged. In addition, in order to mitigate the impact of the selection of learning, test and validation sets, k-fold validation was applied.">
+  <meta name="description" content="Malignant melanomas are the most deadly type of skin cancer, yet detected early have high chances of successful treatment. In the last twenty years, the interest in automatic recognition and classification of melanoma dynamically increased, partly because of appearing public datasets with dermatoscopic images of skin lesions. Automated computer-aided skin cancer detection in dermatoscopic images is a very challenging task due to uneven sizes of datasets, huge intra-class variation with small interclass variation, and the existence of many artifacts in the images. One of the most recognized methods of melanoma diagnosis is the ABCD method. In the paper, we propose an extended version of this method and an intelligent decision support system based on neural networks that uses its results in the form of hand-crafted features. Automatic determination of the skin features with the ABCD method is difficult due to the large diversity of images of various quality, the existence of hair, different markers and other obstacles. Therefore, it was necessary to apply advanced methods of pre-processing the images. The proposed system is an ensemble of ten neural networks working in parallel, and one network using their results to generate a final decision. This system structure enables to increase the efficiency of its operation by several percentage points compared with a single neural network. The proposed system is trained on over 5000 and tested afterwards on 200 skin moles. The presented system can be used as a decision support system for primary care physicians, as a system capable of self-examination of the skin with a dermatoscope and also as an important tool to improve biopsy decision making.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://akwasigroch.github.io/publication/technical_issues/">
+  <link rel="alternate" hreflang="en-us" href="https://akwasigroch.github.io/publication/diagnosis_of_mal/">
 
   
 
@@ -136,7 +136,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://akwasigroch.github.io/publication/technical_issues/">
+  <link rel="canonical" href="https://akwasigroch.github.io/publication/diagnosis_of_mal/">
 
   
   
@@ -149,15 +149,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="A. Kwasigroch">
-  <meta property="og:url" content="https://akwasigroch.github.io/publication/technical_issues/">
-  <meta property="og:title" content="Selected technical issues of deep neural networks for image classification purposes | A. Kwasigroch">
-  <meta property="og:description" content="In recent years, deep learning and especially deep neural networks (DNN) have obtained amazing performance on a variety of problems, in particular in classification or pattern recognition. Among many kinds of DNNs, the convolutional neural networks (CNN) are most commonly used. However, due to their complexity, there are many problems related but not limited to optimizing network parameters, avoiding overfitting and ensuring good generalization abilities. Therefore, a number of methods have been proposed by the researchers to deal with these problems. In this paper, we present the results of applying different, recently developed methods to improve deep neural network training and operating. We decided to focus on the most popular CNN structures, namely on VGG based neural networks: VGG16, VGG11 and proposed by us VGG8. The tests were conducted on a real and very important problem of skin cancer detection. A publicly available dataset of skin lesions was used as a benchmark. We analyzed the influence of applying: dropout, batch normalization, model ensembling, and transfer learning. Moreover, the influence of the type of activation function was checked. In order to increase the objectivity of the results, each of the tested models was trained 6 times and their results were averaged. In addition, in order to mitigate the impact of the selection of learning, test and validation sets, k-fold validation was applied."><meta property="og:image" content="https://akwasigroch.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://akwasigroch.github.io/publication/diagnosis_of_mal/">
+  <meta property="og:title" content="Diagnosis of Malignant Melanoma by Neural Network Ensemble-Based System Utilising Hand-Crafted Skin Lesion Features | A. Kwasigroch">
+  <meta property="og:description" content="Malignant melanomas are the most deadly type of skin cancer, yet detected early have high chances of successful treatment. In the last twenty years, the interest in automatic recognition and classification of melanoma dynamically increased, partly because of appearing public datasets with dermatoscopic images of skin lesions. Automated computer-aided skin cancer detection in dermatoscopic images is a very challenging task due to uneven sizes of datasets, huge intra-class variation with small interclass variation, and the existence of many artifacts in the images. One of the most recognized methods of melanoma diagnosis is the ABCD method. In the paper, we propose an extended version of this method and an intelligent decision support system based on neural networks that uses its results in the form of hand-crafted features. Automatic determination of the skin features with the ABCD method is difficult due to the large diversity of images of various quality, the existence of hair, different markers and other obstacles. Therefore, it was necessary to apply advanced methods of pre-processing the images. The proposed system is an ensemble of ten neural networks working in parallel, and one network using their results to generate a final decision. This system structure enables to increase the efficiency of its operation by several percentage points compared with a single neural network. The proposed system is trained on over 5000 and tested afterwards on 200 skin moles. The presented system can be used as a decision support system for primary care physicians, as a system capable of self-examination of the skin with a dermatoscope and also as an important tool to improve biopsy decision making."><meta property="og:image" content="https://akwasigroch.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://akwasigroch.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-02-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2019-01-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-02-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-01-01T00:00:00&#43;00:00">
   
 
   
@@ -181,12 +181,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://akwasigroch.github.io/publication/technical_issues/"
+    "@id": "https://akwasigroch.github.io/publication/diagnosis_of_mal/"
   },
-  "headline": "Selected technical issues of deep neural networks for image classification purposes",
+  "headline": "Diagnosis of Malignant Melanoma by Neural Network Ensemble-Based System Utilising Hand-Crafted Skin Lesion Features",
   
-  "datePublished": "2019-02-01T00:00:00Z",
-  "dateModified": "2019-02-01T00:00:00Z",
+  "datePublished": "2019-01-01T00:00:00Z",
+  "dateModified": "2019-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -201,7 +201,7 @@
       "url": "https://akwasigroch.github.io/img/icon-512.png"
     }
   },
-  "description": "In recent years, deep learning and especially deep neural networks (DNN) have obtained amazing performance on a variety of problems, in particular in classification or pattern recognition. Among many kinds of DNNs, the convolutional neural networks (CNN) are most commonly used. However, due to their complexity, there are many problems related but not limited to optimizing network parameters, avoiding overfitting and ensuring good generalization abilities. Therefore, a number of methods have been proposed by the researchers to deal with these problems. In this paper, we present the results of applying different, recently developed methods to improve deep neural network training and operating. We decided to focus on the most popular CNN structures, namely on VGG based neural networks: VGG16, VGG11 and proposed by us VGG8. The tests were conducted on a real and very important problem of skin cancer detection. A publicly available dataset of skin lesions was used as a benchmark. We analyzed the influence of applying: dropout, batch normalization, model ensembling, and transfer learning. Moreover, the influence of the type of activation function was checked. In order to increase the objectivity of the results, each of the tested models was trained 6 times and their results were averaged. In addition, in order to mitigate the impact of the selection of learning, test and validation sets, k-fold validation was applied."
+  "description": "Malignant melanomas are the most deadly type of skin cancer, yet detected early have high chances of successful treatment. In the last twenty years, the interest in automatic recognition and classification of melanoma dynamically increased, partly because of appearing public datasets with dermatoscopic images of skin lesions. Automated computer-aided skin cancer detection in dermatoscopic images is a very challenging task due to uneven sizes of datasets, huge intra-class variation with small interclass variation, and the existence of many artifacts in the images. One of the most recognized methods of melanoma diagnosis is the ABCD method. In the paper, we propose an extended version of this method and an intelligent decision support system based on neural networks that uses its results in the form of hand-crafted features. Automatic determination of the skin features with the ABCD method is difficult due to the large diversity of images of various quality, the existence of hair, different markers and other obstacles. Therefore, it was necessary to apply advanced methods of pre-processing the images. The proposed system is an ensemble of ten neural networks working in parallel, and one network using their results to generate a final decision. This system structure enables to increase the efficiency of its operation by several percentage points compared with a single neural network. The proposed system is trained on over 5000 and tested afterwards on 200 skin moles. The presented system can be used as a decision support system for primary care physicians, as a system capable of self-examination of the skin with a dermatoscope and also as an important tool to improve biopsy decision making."
 }
 </script>
 
@@ -219,7 +219,7 @@
 
 
 
-  <title>Selected technical issues of deep neural networks for image classification purposes | A. Kwasigroch</title>
+  <title>Diagnosis of Malignant Melanoma by Neural Network Ensemble-Based System Utilising Hand-Crafted Skin Lesion Features | A. Kwasigroch</title>
 
 </head>
 
@@ -395,7 +395,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Selected technical issues of deep neural networks for image classification purposes</h1>
+  <h1>Diagnosis of Malignant Melanoma by Neural Network Ensemble-Based System Utilising Hand-Crafted Skin Lesion Features</h1>
 
   
 
@@ -415,7 +415,7 @@
 
 
   
-  <span><a href="/authors/m.-grochowski/">M. Grochowski</a></span>, <span><a href="/authors/a.-kwasigroch/"><strong>A. Kwasigroch</strong></a></span>, <span><a href="/authors/a.-mikolajczyk/">A. Mikolajczyk</a></span>
+  <span><a href="/authors/m.-grochowski/">M. Grochowski</a></span>, <span><a href="/authors/a.-mikolajczyk/">A. Mikolajczyk</a></span>, <span><a href="/authors/a.-kwasigroch/"><strong>A. Kwasigroch</strong></a></span>
 
   </div>
   
@@ -427,7 +427,7 @@
     
       
     
-    February 2019
+    January 2019
   </span>
   
 
@@ -499,7 +499,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://www.czasopisma.pan.pl/dlibra/publication/128485/edition/112085/content/selected-technical-issues-of-deep-neural-networks-for-image-classification-purposes-grochowski-m-kwasigroch-a-mikolajczyk-a" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.baztech-9facdcbc-8fe5-4f40-a606-0e258d8dee0e/c/Grochowski_Diagnosis_MMS_1_2019.pdf" target="_blank" rel="noopener">
     
     PDF
   </a>
@@ -517,7 +517,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">In recent years, deep learning and especially deep neural networks (DNN) have obtained amazing performance on a variety of problems, in particular in classification or pattern recognition. Among many kinds of DNNs, the convolutional neural networks (CNN) are most commonly used. However, due to their complexity, there are many problems related but not limited to optimizing network parameters, avoiding overfitting and ensuring good generalization abilities. Therefore, a number of methods have been proposed by the researchers to deal with these problems. In this paper, we present the results of applying different, recently developed methods to improve deep neural network training and operating. We decided to focus on the most popular CNN structures, namely on VGG based neural networks: VGG16, VGG11 and proposed by us VGG8. The tests were conducted on a real and very important problem of skin cancer detection. A publicly available dataset of skin lesions was used as a benchmark. We analyzed the influence of applying: dropout, batch normalization, model ensembling, and transfer learning. Moreover, the influence of the type of activation function was checked. In order to increase the objectivity of the results, each of the tested models was trained 6 times and their results were averaged. In addition, in order to mitigate the impact of the selection of learning, test and validation sets, k-fold validation was applied.</p>
+    <p class="pub-abstract">Malignant melanomas are the most deadly type of skin cancer, yet detected early have high chances of successful treatment. In the last twenty years, the interest in automatic recognition and classification of melanoma dynamically increased, partly because of appearing public datasets with dermatoscopic images of skin lesions. Automated computer-aided skin cancer detection in dermatoscopic images is a very challenging task due to uneven sizes of datasets, huge intra-class variation with small interclass variation, and the existence of many artifacts in the images. One of the most recognized methods of melanoma diagnosis is the ABCD method. In the paper, we propose an extended version of this method and an intelligent decision support system based on neural networks that uses its results in the form of hand-crafted features. Automatic determination of the skin features with the ABCD method is difficult due to the large diversity of images of various quality, the existence of hair, different markers and other obstacles. Therefore, it was necessary to apply advanced methods of pre-processing the images. The proposed system is an ensemble of ten neural networks working in parallel, and one network using their results to generate a final decision. This system structure enables to increase the efficiency of its operation by several percentage points compared with a single neural network. The proposed system is trained on over 5000 and tested afterwards on 200 skin moles. The presented system can be used as a decision support system for primary care physicians, as a system capable of self-examination of the skin with a dermatoscope and also as an important tool to improve biopsy decision making.</p>
     
 
     
@@ -547,7 +547,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Bulletin of The Polish Academy of Sciences Technical Sciences</em></div>
+          <div class="col-12 col-md-9">In <em>Metrology and Measurement Systems</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
