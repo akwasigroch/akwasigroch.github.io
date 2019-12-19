@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | A Kwasigroch</title>
+    <title>Authors | A. Kwasigroch</title>
     <link>https://akwasigroch.github.io/authors/</link>
       <atom:link href="https://akwasigroch.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://akwasigroch.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>**A. Kwasigroch**</title>
+      <link>https://akwasigroch.github.io/authors/a.-kwasigroch/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/authors/a.-kwasigroch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Grochowski</title>
+      <link>https://akwasigroch.github.io/authors/m.-grochowski/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/authors/m.-grochowski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Mikołajczyk</title>
+      <link>https://akwasigroch.github.io/authors/m.-miko%C5%82ajczyk/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/authors/m.-miko%C5%82ajczyk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Mikołajczyk</title>
+      <link>https://akwasigroch.github.io/authors/a.-miko%C5%82ajczyk/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/authors/a.-miko%C5%82ajczyk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>

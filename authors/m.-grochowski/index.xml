@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A. Kwasigroch</title>
-    <link>https://akwasigroch.github.io/</link>
-      <atom:link href="https://akwasigroch.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>A. Kwasigroch</description>
+    <title>M. Grochowski | A. Kwasigroch</title>
+    <link>https://akwasigroch.github.io/authors/m.-grochowski/</link>
+      <atom:link href="https://akwasigroch.github.io/authors/m.-grochowski/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. Grochowski</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
-      <title>A. Kwasigroch</title>
-      <link>https://akwasigroch.github.io/</link>
+      <title>M. Grochowski</title>
+      <link>https://akwasigroch.github.io/authors/m.-grochowski/</link>
     </image>
     
     <item>

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | A Kwasigroch</title>
+    <title>Publications | A. Kwasigroch</title>
     <link>https://akwasigroch.github.io/publication/</link>
       <atom:link href="https://akwasigroch.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://akwasigroch.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Deep neural network architecture search using network morphism</title>
+      <link>https://akwasigroch.github.io/publication/network_morphism_mmar/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/publication/network_morphism_mmar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected technical issues of deep neural networks for image classification purposes</title>
+      <link>https://akwasigroch.github.io/publication/technical_issues/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/publication/technical_issues/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
