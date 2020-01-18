@@ -5,7 +5,7 @@
     <link>https://akwasigroch.github.io/authors/</link>
       <atom:link href="https://akwasigroch.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,17 +13,25 @@
     </image>
     
     <item>
-      <title>**A. Kwasigroch**</title>
+      <title>A. Kwasigroch</title>
       <link>https://akwasigroch.github.io/authors/a.-kwasigroch/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://akwasigroch.github.io/authors/a.-kwasigroch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Mikołajczyk</title>
+      <link>https://akwasigroch.github.io/authors/a.-miko%C5%82ajczyk/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/authors/a.-miko%C5%82ajczyk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>M. Grochowski</title>
       <link>https://akwasigroch.github.io/authors/m.-grochowski/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://akwasigroch.github.io/authors/m.-grochowski/</guid>
       <description></description>
     </item>

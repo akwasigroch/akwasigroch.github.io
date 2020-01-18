@@ -5,7 +5,7 @@
     <link>https://akwasigroch.github.io/authors/a.-miko%C5%82ajczyk/</link>
       <atom:link href="https://akwasigroch.github.io/authors/a.-miko%C5%82ajczyk/index.xml" rel="self" type="application/rss+xml" />
     <description>A. Mikołajczyk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
       <title>A. Mikołajczyk</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Selected technical issues of deep neural networks for image classification purposes</title>
-      <link>https://akwasigroch.github.io/publication/technical_issues/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://akwasigroch.github.io/publication/technical_issues/</guid>
+      <title>Neural Architecture Search for Skin Lesion Classification</title>
+      <link>https://akwasigroch.github.io/publication/network_morphism/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/publication/network_morphism/</guid>
       <description></description>
     </item>
     

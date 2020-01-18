@@ -5,12 +5,20 @@
     <link>https://akwasigroch.github.io/publication/</link>
       <atom:link href="https://akwasigroch.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://akwasigroch.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Neural Architecture Search for Skin Lesion Classification</title>
+      <link>https://akwasigroch.github.io/publication/network_morphism/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/publication/network_morphism/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep neural network architecture search using network morphism</title>

@@ -5,12 +5,67 @@
     <link>https://akwasigroch.github.io/</link>
       <atom:link href="https://akwasigroch.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>A. Kwasigroch</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2019</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/img/icon-192.png</url>
       <title>A. Kwasigroch</title>
       <link>https://akwasigroch.github.io/</link>
     </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://akwasigroch.github.io/talk/first_course/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/talk/first_course/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&#39;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First edition of Fundamentals of Data Science - Gdańsk</title>
+      <link>https://akwasigroch.github.io/post/teaching/first_course/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/post/teaching/first_course/</guid>
+      <description>&lt;p&gt;The data science is a hot topic now, so along with &lt;a href=&#34;http://sharktime.com/en_About.html&#34;&gt;Piotr Chlebek&lt;/a&gt; and &lt;a href=&#34;https://codeme.pl/&#34;&gt;CODE:ME&lt;/a&gt; foundation we decided to organize a data science course. The course took place 11-12.01.2020 in Gdańsk.  The number of participants was limited, and the list of participants was full long before the date of the course. This shows a huge interest in the topic. The participants represented different professions, so it was a very interesting experience to teach them. During the course, there were many interesting discussions, participants often surprised me with the interesting ideas.&lt;/p&gt;
+&lt;p&gt;The scope of the course was very wide and the participants had an opportunity to learn the fundamentals of data science and machine learning, as well as the tools used in those areas.
+My part of the course includes the basics of data science tools and algorithms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anaconda and Jupyter&lt;/li&gt;
+&lt;li&gt;Numpy and Pandas&lt;/li&gt;
+&lt;li&gt;Matplotlib and Seaborn&lt;/li&gt;
+&lt;li&gt;Scikit-learn and Keras&lt;/li&gt;
+&lt;li&gt;Classification, Regression, Clusterization&lt;/li&gt;
+&lt;li&gt;Time series analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The teaching materials prepared by me was based on the data gathered from &lt;a href=&#34;https://dane.gov.pl/&#34;&gt;https://dane.gov.pl/&lt;/a&gt;. The page provides great datasets that are very useful to teach the basics of data preparation, visualization and so on. Moreover, the use of these data is much more fun! This is much more interesting to predict the number of passengers in public transport in the home city than analyzing the boring iris dataset.&lt;/p&gt;
+&lt;p&gt;Another issue tackled by the participants was the analyze of football players from the FIFA game series. We were able to train the Support Vector Regression to predict the value of the players on the transfer market based on the rate of their skills like agility, strength etc. The obtained results were quite good. The problem was also validated on neural network, that performed even better.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The next edition of the course will take place soon.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Links to the course pages. THe information on the feature edition will be provided there:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sharktime.com/pl_KursDataScienceOdPodstaw.html&#34;&gt;http://www.sharktime.com/pl_KursDataScienceOdPodstaw.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeme.pl/data-science/&#34;&gt;https://codeme.pl/data-science/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Architecture Search for Skin Lesion Classification</title>
+      <link>https://akwasigroch.github.io/publication/network_morphism/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/publication/network_morphism/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep neural network architecture search using network morphism</title>
