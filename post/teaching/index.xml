@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | A. Kwasigroch</title>
+    <title>Posts | Arkadiusz Kwasigroch</title>
     <link>https://akwasigroch.github.io/post/teaching/</link>
       <atom:link href="https://akwasigroch.github.io/post/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
@@ -17,7 +17,7 @@
       <link>https://akwasigroch.github.io/post/teaching/first_course/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://akwasigroch.github.io/post/teaching/first_course/</guid>
-      <description>&lt;p&gt;The data science is a hot topic now, so along with &lt;a href=&#34;http://sharktime.com/en_About.html&#34;&gt;Piotr Chlebek&lt;/a&gt; and &lt;a href=&#34;https://codeme.pl/&#34;&gt;CODE:ME&lt;/a&gt; foundation we decided to organize a data science course. The course took place 11-12.01.2020 in Gdańsk.  The number of participants was limited, and the list of participants was full long before the date of the course. This shows a huge interest in the topic. The participants represented different professions, so it was a very interesting experience to teach them. During the course, there were many interesting discussions, participants often surprised me with the interesting ideas.&lt;/p&gt;
+      <description>&lt;p&gt;The data science is a hot topic now, so along with &lt;a href=&#34;http://sharktime.com/en_About.html&#34;&gt;Piotr Chlebek&lt;/a&gt; and &lt;a href=&#34;https://codeme.pl/&#34;&gt;CODE:ME&lt;/a&gt; foundation we decided to organize a data science course. The course took place on 11-12.01.2020 in Gdańsk. The number of participants was limited, and the list of participants was full long before the date of the course. This shows a huge interest in data science and machine learning. The participants represented different professions, so it was a very interesting experience to teach them. During the course, there were many interesting discussions and great ideas about data science methods.&lt;/p&gt;
 &lt;p&gt;The scope of the course was very wide and the participants had an opportunity to learn the fundamentals of data science and machine learning, as well as the tools used in those areas.
 My part of the course includes the basics of data science tools and algorithms:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,11 +27,12 @@ My part of the course includes the basics of data science tools and algorithms:&
 &lt;li&gt;Scikit-learn and Keras&lt;/li&gt;
 &lt;li&gt;Classification, Regression, Clusterization&lt;/li&gt;
 &lt;li&gt;Time series analysis&lt;/li&gt;
+&lt;li&gt;Neural networks&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The teaching materials prepared by me was based on the data gathered from &lt;a href=&#34;https://dane.gov.pl/&#34;&gt;https://dane.gov.pl/&lt;/a&gt;. The page provides great datasets that are very useful to teach the basics of data preparation, visualization and so on. Moreover, the use of these data is much more fun! This is much more interesting to predict the number of passengers in public transport in the home city than analyzing the boring iris dataset.&lt;/p&gt;
+&lt;p&gt;The teaching materials was based on the data gathered from &lt;a href=&#34;https://dane.gov.pl/&#34;&gt;https://dane.gov.pl/&lt;/a&gt;. The page provides great datasets that are very useful to teach the basics of data preparation, visualization and so on. Moreover, the use of these data is much more fun! For example, this is much more interesting to predict the number of passengers in public transport in the home city than analyzing the iris dataset.&lt;/p&gt;
 &lt;p&gt;Another issue tackled by the participants was the analyze of football players from the FIFA game series. We were able to train the Support Vector Regression to predict the value of the players on the transfer market based on the rate of their skills like agility, strength etc. The obtained results were quite good. The problem was also validated on neural network, that performed even better.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The next edition of the course will take place soon.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Links to the course pages. THe information on the feature edition will be provided there:&lt;/p&gt;
+&lt;p&gt;Links to the course pages. The information about the feature courses will be provided there:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.sharktime.com/pl_KursDataScienceOdPodstaw.html&#34;&gt;http://www.sharktime.com/pl_KursDataScienceOdPodstaw.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codeme.pl/data-science/&#34;&gt;https://codeme.pl/data-science/&lt;/a&gt;&lt;/li&gt;
