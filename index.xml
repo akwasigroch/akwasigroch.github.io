@@ -5,12 +5,20 @@
     <link>https://akwasigroch.github.io/</link>
       <atom:link href="https://akwasigroch.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Arkadiusz Kwasigroch</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Mon, 24 Feb 2020 18:00:00 +0000</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_512x512_fill_lanczos_center_2.png</url>
       <title>Arkadiusz Kwasigroch</title>
       <link>https://akwasigroch.github.io/</link>
     </image>
+    
+    <item>
+      <title>Self-supervised learning in computer vision</title>
+      <link>https://akwasigroch.github.io/talk/selfsupervised_ml_gdansk/</link>
+      <pubDate>Mon, 24 Feb 2020 18:00:00 +0000</pubDate>
+      <guid>https://akwasigroch.github.io/talk/selfsupervised_ml_gdansk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The first edition of Fundamentals of Data Science - Gdańsk</title>
@@ -77,14 +85,6 @@ My part of the course includes the basics of data science tools and algorithms:&
       <link>https://akwasigroch.github.io/publication/diabetic_retinopathy/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://akwasigroch.github.io/publication/diabetic_retinopathy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-supervised learning in computer vision (date TBA)</title>
-      <link>https://akwasigroch.github.io/talk/selfsupervised_ml_gdansk/</link>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://akwasigroch.github.io/talk/selfsupervised_ml_gdansk/</guid>
       <description></description>
     </item>
     
