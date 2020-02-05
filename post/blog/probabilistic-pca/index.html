@@ -28,10 +28,11 @@
   
     
   
-  <meta name="description" content="The diabetic retinopathy is a disease caused by long-standing diabetes. Lack of effective treatment can lead to vision impairment and even irreversible blindness. The disease can be diagnosed by examining digital color fundus photographs of retina. In this paper we propose deep learning approach to automated diabetic retinopathy screening. Deep convolutional neural networks (CNN) - the most popular kind of deep learning algorithms - enjoyed great success in the field of image analysis and recognition. Therefore, we leverage CNN networks to diagnose the diabetic retinopathy and its current stage, based on analysis of the photographs of retina. The utilized models were trained using dataset containing over 88000 retina photographs, labeled by specialist clinicians. To enhance the performance of the system, we proposed a special class coding technique that enabled to include the information about value of difference between predicted score and target score into the objective function being minimized during the neural networks training. To evaluate classification ability of employed models we used standard accuracy metrics and quadratic weighted Kappa score that is calculated between the predicted scores and scores provided in the dataset. The best tested model achieved an accuracy of about 82% in detecting the retinopathy and 51% in assessing its stage. Moreover, system obtained decent Kappa score equal 0.776. Achieved results showed that deep learning algorithms can be successfully employed to solve this very hard to analyze problem.">
+  <meta name="description" content="I am preparing a presentation on Variational Autoencoders to my university colleagues. What can cause a problem in Variational Autoencoders understanding is a derivation of a loss function as it involves intuition and knowledge of few probabilistic concepts.
+I think that understanding probabilistic PCA first helps to understand Variational Autoencoders faster. Probabilistic PCA is a great and simple algorithm. The big advantage of this algorithm is that all the probability distributions used in the algorithm are Gaussian distributions.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://akwasigroch.github.io/publication/diabetic_retinopathy/">
+  <link rel="alternate" hreflang="en-us" href="https://akwasigroch.github.io/post/blog/probabilistic-pca/">
 
   
 
@@ -254,7 +255,7 @@
   <link rel="icon" type="image/png" href="/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://akwasigroch.github.io/publication/diabetic_retinopathy/">
+  <link rel="canonical" href="https://akwasigroch.github.io/post/blog/probabilistic-pca/">
 
   
   
@@ -262,24 +263,24 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@a_kwasigroch">
   <meta property="twitter:creator" content="@a_kwasigroch">
   
   <meta property="og:site_name" content="Arkadiusz Kwasigroch">
-  <meta property="og:url" content="https://akwasigroch.github.io/publication/diabetic_retinopathy/">
-  <meta property="og:title" content="Deep CNN based decision support system for detection and assessing the stage of diabetic retinopathy | Arkadiusz Kwasigroch">
-  <meta property="og:description" content="The diabetic retinopathy is a disease caused by long-standing diabetes. Lack of effective treatment can lead to vision impairment and even irreversible blindness. The disease can be diagnosed by examining digital color fundus photographs of retina. In this paper we propose deep learning approach to automated diabetic retinopathy screening. Deep convolutional neural networks (CNN) - the most popular kind of deep learning algorithms - enjoyed great success in the field of image analysis and recognition. Therefore, we leverage CNN networks to diagnose the diabetic retinopathy and its current stage, based on analysis of the photographs of retina. The utilized models were trained using dataset containing over 88000 retina photographs, labeled by specialist clinicians. To enhance the performance of the system, we proposed a special class coding technique that enabled to include the information about value of difference between predicted score and target score into the objective function being minimized during the neural networks training. To evaluate classification ability of employed models we used standard accuracy metrics and quadratic weighted Kappa score that is calculated between the predicted scores and scores provided in the dataset. The best tested model achieved an accuracy of about 82% in detecting the retinopathy and 51% in assessing its stage. Moreover, system obtained decent Kappa score equal 0.776. Achieved results showed that deep learning algorithms can be successfully employed to solve this very hard to analyze problem."><meta property="og:image" content="https://akwasigroch.github.io/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://akwasigroch.github.io/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://akwasigroch.github.io/post/blog/probabilistic-pca/">
+  <meta property="og:title" content="Probabilistic PCA implementation | Arkadiusz Kwasigroch">
+  <meta property="og:description" content="I am preparing a presentation on Variational Autoencoders to my university colleagues. What can cause a problem in Variational Autoencoders understanding is a derivation of a loss function as it involves intuition and knowledge of few probabilistic concepts.
+I think that understanding probabilistic PCA first helps to understand Variational Autoencoders faster. Probabilistic PCA is a great and simple algorithm. The big advantage of this algorithm is that all the probability distributions used in the algorithm are Gaussian distributions."><meta property="og:image" content="https://akwasigroch.github.io/post/blog/probabilistic-pca/featured.png">
+  <meta property="twitter:image" content="https://akwasigroch.github.io/post/blog/probabilistic-pca/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-04-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-02-05T22:38:09&#43;01:00">
     
-    <meta property="article:modified_time" content="2018-04-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-02-05T22:38:09&#43;01:00">
   
 
   
@@ -291,6 +292,8 @@
 
 
 
+
+  
 
 
 
@@ -300,15 +303,19 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://akwasigroch.github.io/publication/diabetic_retinopathy/"
+    "@id": "https://akwasigroch.github.io/post/blog/probabilistic-pca/"
   },
-  "headline": "Deep CNN based decision support system for detection and assessing the stage of diabetic retinopathy",
+  "headline": "Probabilistic PCA implementation",
   
-  "datePublished": "2018-04-01T00:00:00Z",
-  "dateModified": "2018-04-01T00:00:00Z",
+  "image": [
+    "https://akwasigroch.github.io/post/blog/probabilistic-pca/featured.png"
+  ],
+  
+  "datePublished": "2020-02-05T22:38:09+01:00",
+  "dateModified": "2020-02-05T22:38:09+01:00",
   
   "author": {
     "@type": "Person",
@@ -323,7 +330,7 @@
       "url": "img/https://akwasigroch.github.io/"
     }
   },
-  "description": "The diabetic retinopathy is a disease caused by long-standing diabetes. Lack of effective treatment can lead to vision impairment and even irreversible blindness. The disease can be diagnosed by examining digital color fundus photographs of retina. In this paper we propose deep learning approach to automated diabetic retinopathy screening. Deep convolutional neural networks (CNN) - the most popular kind of deep learning algorithms - enjoyed great success in the field of image analysis and recognition. Therefore, we leverage CNN networks to diagnose the diabetic retinopathy and its current stage, based on analysis of the photographs of retina. The utilized models were trained using dataset containing over 88000 retina photographs, labeled by specialist clinicians. To enhance the performance of the system, we proposed a special class coding technique that enabled to include the information about value of difference between predicted score and target score into the objective function being minimized during the neural networks training. To evaluate classification ability of employed models we used standard accuracy metrics and quadratic weighted Kappa score that is calculated between the predicted scores and scores provided in the dataset. The best tested model achieved an accuracy of about 82% in detecting the retinopathy and 51% in assessing its stage. Moreover, system obtained decent Kappa score equal 0.776. Achieved results showed that deep learning algorithms can be successfully employed to solve this very hard to analyze problem."
+  "description": "I am preparing a presentation on Variational Autoencoders to my university colleagues. What can cause a problem in Variational Autoencoders understanding is a derivation of a loss function as it involves intuition and knowledge of few probabilistic concepts.\nI think that understanding probabilistic PCA first helps to understand Variational Autoencoders faster. Probabilistic PCA is a great and simple algorithm. The big advantage of this algorithm is that all the probability distributions used in the algorithm are Gaussian distributions."
 }
 </script>
 
@@ -341,7 +348,7 @@
 
 
 
-  <title>Deep CNN based decision support system for detection and assessing the stage of diabetic retinopathy | Arkadiusz Kwasigroch</title>
+  <title>Probabilistic PCA implementation | Arkadiusz Kwasigroch</title>
 
 </head>
 
@@ -613,7 +620,7 @@
 </nav>
 
 
-  <div class="pub">
+  <article class="article">
 
   
 
@@ -628,35 +635,28 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>Deep CNN based decision support system for detection and assessing the stage of diabetic retinopathy</h1>
+  <h1>Probabilistic PCA implementation</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
 
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  
-  <span><a href="/authors/arkadiusz-kwasigroch/">Arkadiusz Kwasigroch</a></span>, <span><a href="/authors/bart%C5%82omiej-jarzembinski/">Bartłomiej Jarzembinski</a></span>, <span><a href="/authors/micha%C5%82-grochowski/">Michał Grochowski</a></span>
-
-  </div>
   
   
 
@@ -666,24 +666,36 @@
     
       
     
-    April 2018
+    05.02.2020
   </span>
   
 
   
 
   
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
 
   
   
   
+  <span class="middot-divider"></span>
+  <a href="/post/blog/probabilistic-pca/#disqus_thread"></a>
+  
 
   
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/blog/">Blog</a></span>
   
 
 </div>
 
-    
+  
 
 
 
@@ -738,65 +750,38 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/abstract/document/8388337" target="_blank" rel="noopener">
-    
-    URL
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/akwasigroch/probabilistic_pca" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Code
   </a>
 
 
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
+  <div style="position: relative">
+    <img src="/post/blog/probabilistic-pca/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">Reconstructions of images sampled from $p(x|z)$ distribution</span>
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract">The diabetic retinopathy is a disease caused by long-standing diabetes. Lack of effective treatment can lead to vision impairment and even irreversible blindness. The disease can be diagnosed by examining digital color fundus photographs of retina. In this paper we propose deep learning approach to automated diabetic retinopathy screening. Deep convolutional neural networks (CNN) - the most popular kind of deep learning algorithms - enjoyed great success in the field of image analysis and recognition. Therefore, we leverage CNN networks to diagnose the diabetic retinopathy and its current stage, based on analysis of the photographs of retina. The utilized models were trained using dataset containing over 88000 retina photographs, labeled by specialist clinicians. To enhance the performance of the system, we proposed a special class coding technique that enabled to include the information about value of difference between predicted score and target score into the objective function being minimized during the neural networks training. To evaluate classification ability of employed models we used standard accuracy metrics and quadratic weighted Kappa score that is calculated between the predicted scores and scores provided in the dataset. The best tested model achieved an accuracy of about 82% in detecting the retinopathy and 51% in assessing its stage. Moreover, system obtained decent Kappa score equal 0.776. Achieved results showed that deep learning algorithms can be successfully employed to solve this very hard to analyze problem.</p>
-    
+    <div class="article-style">
+      <p>I am preparing a presentation on Variational Autoencoders to my university colleagues. What can cause a problem in Variational Autoencoders understanding is a derivation of a loss function as it involves intuition and knowledge of few probabilistic concepts.</p>
+<p>I think that understanding probabilistic PCA first helps to understand Variational Autoencoders faster. Probabilistic PCA is a great and simple algorithm. The big advantage of this algorithm is that all the probability distributions used in the algorithm are Gaussian distributions. So starting from the latent variable distribution $p(z)$ and distribution of observed variables conditioned on latent variable $p(x|z)$, we can easily obtain the distribution of observed variable $p(x)$, and posterior distribution $p(z|x)$. It could be obtained analytically by known equations. What's more, we can easily sample from that distribution using known libraries like Numpy or Scipy. So to gain the intuition for this algorithm, it is worth to play with the examples.</p>
+<p>I prepared the short implementation of the probabilistic PCA method. I plan to show the code to listeners on my presentation to make the algorithm easier to understand. I hope that it also helps you. The code is available at my Github:</p>
+<p><a href="https://github.com/akwasigroch/probabilistic_pca">https://github.com/akwasigroch/probabilistic_pca</a></p>
+<p>I plan to prepare longer text on my blog concerning that method.</p>
+<p>Feel free to leave the comment :)</p>
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>22018 International Interdisciplinary PhD Workshop (IIPhDW)</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"></div>
 
     
 
@@ -818,28 +803,129 @@
 
 
   
+
+
+
+
+
+
+  
+  
   
     
-  
-  
-
-
-
-
-
-
-  
-  
   
   
   <div class="media author-card content-widget-hr">
     
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu921dcb34b275092a711ca264411d98f0_136545_250x250_fill_lanczos_center_2.png" alt="Avatar">
+    
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/arkadiusz-kwasigroch/"></a></h5>
-      
+      <h5 class="card-title"><a href="https://akwasigroch.github.io/">Arkadiusz Kwasigroch</a></h5>
+      <h6 class="card-subtitle">Assistant researcher</h6>
       
       <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/a_kwasigroch" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.pl/citations?user=Hw7DV4QAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/akwasigroch" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/arkadiusz-kwasigroch-33089312b" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Arkadiusz_Kwasigroch" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
   
 </ul>
 
@@ -849,6 +935,34 @@
 
 
 
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "disqus_df7I5JvY42" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
 
 
 
@@ -860,7 +974,7 @@
 
 
   </div>
-</div>
+</article>
 
       
 
