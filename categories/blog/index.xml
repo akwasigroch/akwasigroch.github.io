@@ -5,7 +5,7 @@
     <link>https://akwasigroch.github.io/categories/blog/</link>
       <atom:link href="https://akwasigroch.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 22:38:09 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Sun, 08 Mar 2020 22:38:09 +0100</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_512x512_fill_lanczos_center_2.png</url>
       <title>Blog</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Self supervised learning with pretext invariant representations</title>
       <link>https://akwasigroch.github.io/post/blog/pretext-invariant-representations/</link>
-      <pubDate>Wed, 19 Feb 2020 22:38:09 +0100</pubDate>
+      <pubDate>Sun, 08 Mar 2020 22:38:09 +0100</pubDate>
       <guid>https://akwasigroch.github.io/post/blog/pretext-invariant-representations/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Recently, I have started to experiment with self-supervised learning techniques. In the last few months, we can see the rapid development of new methods. Moreover, self-supervised learning is reaching transfer learning performance.&lt;/p&gt;
