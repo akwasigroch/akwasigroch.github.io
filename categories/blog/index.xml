@@ -5,12 +5,70 @@
     <link>https://akwasigroch.github.io/categories/blog/</link>
       <atom:link href="https://akwasigroch.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Wed, 05 Feb 2020 22:38:09 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Arkadiusz Kwasigroch © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 22:38:09 +0100</lastBuildDate>
     <image>
       <url>https://akwasigroch.github.io/images/icon_huf19dda8888b9106de6dc6f7c8ef8bbc9_17545_512x512_fill_lanczos_center_2.png</url>
       <title>Blog</title>
       <link>https://akwasigroch.github.io/categories/blog/</link>
     </image>
+    
+    <item>
+      <title>Self supervised learning with pretext invariant representations</title>
+      <link>https://akwasigroch.github.io/post/blog/pretext-invariant-representations/</link>
+      <pubDate>Wed, 19 Feb 2020 22:38:09 +0100</pubDate>
+      <guid>https://akwasigroch.github.io/post/blog/pretext-invariant-representations/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Recently, I have started to experiment with self-supervised learning techniques. In the last few months, we can see the rapid development of new methods. Moreover, self-supervised learning is reaching transfer learning performance.&lt;/p&gt;
+&lt;p&gt;This family of methods allows using of unlabeled data to increase the performance of the task (e.g. classification, detection or so on). To better understand the idea behind those algorithms visit &lt;a href=&#34;https://arxiv.org/pdf/1902.06162.pdf&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https://github.com/jason718/awesome-self-supervised-learning&#34;&gt;here&lt;/a&gt;. Self-supervised learning is used not only in computer vision domain, here is an example of successful use of self-supervised learning in automatic speech recognition &lt;a href=&#34;https://ai.facebook.com/blog/wav2vec-state-of-the-art-speech-recognition-through-self-supervision/&#34;&gt;https://ai.facebook.com/blog/wav2vec-state-of-the-art-speech-recognition-through-self-supervision/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this post, I focus on the paper &lt;a href=&#34;https://arxiv.org/pdf/1912.01991.pdf&#34;&gt;Self-Supervised Learning of Pretext-Invariant Representations&lt;/a&gt; by Ishan Misra, Laurens van der Maaten from Facebook.&lt;/p&gt;
+&lt;h2 id=&#34;idea&#34;&gt;Idea&lt;/h2&gt;
+&lt;p&gt;Self-supervised learning usually involves preparing a pretext task. For instance, apply rotation to the images, then train the network to predict the rotation angles. Thus, pretext task most often becomes a simple classification task. The advantage of this approach is that we do not need to have manually assigned labels. We can generate labels automatically. The pretext task training aims to obtain good quality image representations. So, after pretext task pretraining, we can train our network on a downstream task (our target task) using those representations. This approach is similar to transfer learning that also involves two stages – training on big dataset then training on a target task.&lt;/p&gt;
+&lt;p&gt;In the mentioned paper authors also perform data augmentation. However, they do not focus on the prediction of the properties of the transformation. Instead, they try to make the representation of the original image and a modified image similar. This makes sense. For example, the image of the dog should produce the same feature vector regardless of the rotation angle. This can lead to more robust computer vision algorithms.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;dog.67.jpg&#34; data-caption=&#34;These two images should produce similar representations&#34;&gt;
+&lt;img data-src=&#34;dog.67.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    These two images should produce similar representations
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;How to make the network produce the same representations? By proper design of the loss function.
+So the idea is to pass both the original image and modified image by the network. Then change the network parameters in the optimization process to make the representation of two images similar. It can be obtained by minimizing the distance between those two representations. Unfortunately, there is one problem. The network can learn the trivial solution, for example, return zeros for all examples. To avoid such solutions, the distance between the modified image and other images in the dataset should be maximized. This lead to the loss function of the following form:&lt;/p&gt;
+&lt;p&gt;$$ h(\mathbf v_{\mathbf I}, \mathbf v_{\mathbf I^{t}}) = \frac{\exp( \frac{s(\mathbf v_{\mathbf I}, \mathbf v_{\mathbf I^{t}})}{\tau})}{\exp( \frac{s(\mathbf v_{\mathbf I}, \mathbf v_{\mathbf I^{t}})}{\tau}) + \sum_{I^{&#39;} \in \mathcal{D}_{N}} \exp( \frac{s(\mathbf v_{\mathbf I^{t}}, \mathbf v_{\mathbf I^{&#39;}})}{\tau}) } $$&lt;/p&gt;
+&lt;p&gt;A detailed explanation of the function is provided in the paper. The numerator is a distance between the image and its modification, while the denominator is a sum of distances between the modified image and other images in the dataset. What is important, this function is similar to the softmax function. Therefore, we can use the cross-entropy loss function available in deep learning libraries.&lt;/p&gt;
+&lt;p&gt;You can notice the representations of other images in the delimiter. Obtaining those every batch could be very costly, so the authors decided to construct a representation bank that contains representations of all images in the dataset. So instead of calculating that every time we can look up the array.&lt;/p&gt;
+&lt;p&gt;The authors made an extensive analysis of many tasks. I&#39;m not going to describe this here. What is interesting, the authors managed to achieve better image detection performance using self-supervised learning instead transfer learning.&lt;/p&gt;
+&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
+&lt;p&gt;I decided to implement the algorithm in the Pytorch library. The code is available here: &lt;a href=&#34;https://github.com/akwasigroch/Pretext-Invariant-Representations&#34;&gt;https://github.com/akwasigroch/Pretext-Invariant-Representations&lt;/a&gt;. I performed initial experiments on the ISIC 2017 dataset. The dataset contains 2000 training images, 150 validation images, and 600 test images. I obtained the following results on ResNet50 network:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;0.55 AUC - training from scratch (the network can&#39;t learn)&lt;/li&gt;
+&lt;li&gt;0.70 AUC - training using a self-supervised pre-trained network&lt;/li&gt;
+&lt;li&gt;0.80 AUC - training using transfer learning from a network trained on Imagenet dataset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I did not manage to reach the performance of transfer learning. However, the results are promising, and I think an increase in the number of images (I used the same images in supervised and self-supervised training) can lead to much better results. This is especially important in medical cases where many images are not labeled, as it is time-consuming and involves the work of a skilled medical specialist.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learn probabilistic PCA first to better understand Variational Autoencoders</title>
